@@ -2,6 +2,8 @@
 sudo apt-get update
 sudo apt-get install -y ruby1.9.1-dev
 
+nvm install 5.8.0
+
 #npm install -g cordova@5.4.0
 #npm install -g plugman
 #npm install -g ionic@1.7.8
