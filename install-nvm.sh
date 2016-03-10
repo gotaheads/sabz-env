@@ -1,0 +1,3 @@
+#!/bin/bash
+# The project is currently using n instead of nvm...
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
