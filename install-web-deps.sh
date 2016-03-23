@@ -15,3 +15,5 @@ npm install generator-material-app
 sudo gem install sass
 sudo gem install compass
 #ionic setup sass
+
+npm install -g grunt-cli bower yo generator-karma generator-angular

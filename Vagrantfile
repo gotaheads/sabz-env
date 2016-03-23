@@ -27,7 +27,12 @@ Vagrant.configure(2) do |config|
 
   #nginx
   config.vm.network :forwarded_port, host: 8000, guest: 80
-
+  #live-server
+  config.vm.network :forwarded_port, host: 8080, guest: 8080
+  #live reload
+  #config.vm.network :forwarded_port, host: 27017, guest: 27017
+  #sabz-web
+  config.vm.network :forwarded_port, host: 9001, guest: 9001
   config.ssh.forward_agent = true
 
   config.vm.provider :virtualbox do |vb|
