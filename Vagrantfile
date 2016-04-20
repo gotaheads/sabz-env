@@ -33,6 +33,7 @@ Vagrant.configure(2) do |config|
   #config.vm.network :forwarded_port, host: 27017, guest: 27017
   #sabz-web
   config.vm.network :forwarded_port, host: 9001, guest: 9001
+  config.vm.network :forwarded_port, host: 35729, guest: 35729
   config.ssh.forward_agent = true
 
   config.vm.provider :virtualbox do |vb|
